@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Building.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3DApp.cpp">
+      <Filter>GameMainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>GameMainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="MyD3DUtil.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXLoad.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Picking.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsVector.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Object\Bounding</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>Object\Bounding</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMesh.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterState.cpp">
+      <Filter>Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Object\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOption.cpp">
+      <Filter>GameMainLoop\GameOption</Filter>
+    </ClCompile>
+    <ClCompile Include="CText.cpp">
+      <Filter>2DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCamera.cpp">
+      <Filter>System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>2DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="InitScene.cpp">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScene.cpp">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9Engine.cpp">
+      <Filter>GameMainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherPlayer.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossHair.cpp">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>System\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextButton.cpp">
+      <Filter>2DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaitRoomChat.cpp">
+      <Filter>System\Chatting</Filter>
+    </ClCompile>
+    <ClCompile Include="CInGameChat.cpp">
+      <Filter>System\Chatting</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>System\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonEvent.cpp">
+      <Filter>System\Event\ButtonEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitScene.cpp">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlayRoomScene.cpp">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlayScene.cpp">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionScene.cpp">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SinglePlayScene.cpp">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CLine.cpp">
+      <Filter>2DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="CBox.cpp">
+      <Filter>2DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextField.cpp">
+      <Filter>2DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextList.cpp">
+      <Filter>2DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyBoard.cpp">
+      <Filter>System\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUtility.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientChattingBridge.cpp">
+      <Filter>System\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientEngine.cpp">
+      <Filter>System\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialog.cpp">
+      <Filter>2DRender\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginDialog.cpp">
+      <Filter>2DRender\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerListDialog.cpp">
+      <Filter>2DRender\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameInformDialog.cpp">
+      <Filter>2DRender\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="HPSystem.cpp">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AmmoSystem.cpp">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimeRemaining.cpp">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSInterface.cpp">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientUDPEngine.cpp">
+      <Filter>System\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CClient.cpp">
+      <Filter>System\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlaying.cpp">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaveFile.cpp">
+      <Filter>System\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CKillDeathEventList.cpp">
+      <Filter>2DRender\Dialogs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Building.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3DApp.h">
+      <Filter>GameMainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="MyD3DUtil.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXLoad.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Picking.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsVector.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX9ProjectA.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="DXD9Project.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDef.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Object\Bounding</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Object\Bounding</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterState.h">
+      <Filter>Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Object\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOption.h">
+      <Filter>GameMainLoop\GameOption</Filter>
+    </ClInclude>
+    <ClInclude Include="CText.h">
+      <Filter>2DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCamera.h">
+      <Filter>System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>2DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="InitScene.h">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScene.h">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9Engine.h">
+      <Filter>GameMainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherPlayer.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossHair.h">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>System\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextButton.h">
+      <Filter>2DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaitRoomChat.h">
+      <Filter>System\Chatting</Filter>
+    </ClInclude>
+    <ClInclude Include="CInGameChat.h">
+      <Filter>System\Chatting</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>System\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonEvent.h">
+      <Filter>System\Event\ButtonEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="SinglePlayScene.h">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitScene.h">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayRoomScene.h">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlayScene.h">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionScene.h">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CLine.h">
+      <Filter>2DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="CBox.h">
+      <Filter>2DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextField.h">
+      <Filter>2DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextList.h">
+      <Filter>2DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyBoard.h">
+      <Filter>System\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUtility.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientChattingBridge.h">
+      <Filter>System\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientEngine.h">
+      <Filter>System\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialog.h">
+      <Filter>2DRender\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginDialog.h">
+      <Filter>2DRender\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerListDialog.h">
+      <Filter>2DRender\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameInformDialog.h">
+      <Filter>2DRender\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="HPSystem.h">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimeRemaining.h">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AmmoSystem.h">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSInterface.h">
+      <Filter>2DRender\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientUDPEngine.h">
+      <Filter>System\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CClient.h">
+      <Filter>System\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProtocol.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlaying.h">
+      <Filter>GameMainLoop\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaveFile.h">
+      <Filter>System\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CKillDeathEventList.h">
+      <Filter>2DRender\Dialogs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D3DX9ProjectA.ico">
+      <Filter>Others</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Others</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object">
+      <UniqueIdentifier>{c87dbfec-9c66-415e-b40c-df1c7664db5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{6f477f39-e62c-45f1-82bf-a41432667c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMainLoop">
+      <UniqueIdentifier>{0dc13048-c10f-4dfe-abc3-4aec535fe0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{c537cdba-08e0-415e-b2ad-978fea6f3c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle">
+      <UniqueIdentifier>{8ecd1bc9-d4f8-48ad-8f65-2d5365f4a0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bounding">
+      <UniqueIdentifier>{37a60837-d2f1-4497-bbbb-02446f16ab6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Character">
+      <UniqueIdentifier>{f5d61ead-1d42-441b-9404-e6632ed8955c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Animation">
+      <UniqueIdentifier>{a02b1ece-7a70-41e8-a787-b384ab5907bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMainLoop\GameScene">
+      <UniqueIdentifier>{7d1c55cc-568c-4f16-bdd7-4a880c7bba47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMainLoop\GameOption">
+      <UniqueIdentifier>{68115727-af69-40f0-ae28-71af175dbdda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{3ec7c8bf-a11f-474d-8f08-cf5fb214a66a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Camera">
+      <UniqueIdentifier>{3a6424bf-e44d-40d2-ae0d-0749fe97a0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Network">
+      <UniqueIdentifier>{8c46cd21-f967-46e5-ac1a-c19b75d916b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DRender">
+      <UniqueIdentifier>{764636d2-db49-4ad5-b911-8f9e9d516498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DRender\GameSystem">
+      <UniqueIdentifier>{6a5b9d29-3e6c-4f4d-926d-1b765159daab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Sound">
+      <UniqueIdentifier>{5cd4b9a7-3623-4a0d-8ccc-54b059972010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Chatting">
+      <UniqueIdentifier>{a75e3ecc-e395-400a-8d5d-445c631fd112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Event">
+      <UniqueIdentifier>{9a5b81b9-c42e-4544-91ee-a6a4b39b6d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Event\ButtonEvent">
+      <UniqueIdentifier>{5d6e2731-70fa-43bb-9f10-912807df06a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DRender\NewFilter1">
+      <UniqueIdentifier>{dc8a5f9a-e526-4d00-ba83-cc35211adc81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\InputSystem">
+      <UniqueIdentifier>{8f3b7f44-03a2-4e90-a42d-f4ddba98dac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{24fee3ba-d940-4529-84e7-34580b53996a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DRender\Dialogs">
+      <UniqueIdentifier>{c6dd9664-5b26-45ea-836d-db648e10afde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3DX9ProjectA.rc">
+      <Filter>Others</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

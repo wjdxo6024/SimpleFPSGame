@@ -1,5 +1,5 @@
 # SimpleFPSGame
--SimpleFPSGame은 여러 DirectX9을 공부한 자료를 토대로 만들어진 게임입니다.
+-SimpleFPSGame은 여러 DirectX9을 공부한 자료를 토대로 만들어진 게임입니다. 3-2학기 네트워크 프로그래밍 과제로 제작했습니다.
 
 -WASD와 R(재장전), 그리고 마우스의 입력을 받습니다.
 
@@ -12,5 +12,9 @@
 
 2021-11-15
 -프로젝트가 제대로 컴파일 안된다는 메세지를 받았습니다. 일단 동적 libfbxsdk.dll을 추가하셔야 합니다. 하지만 그래도 안될 경우
+
 -프로젝트를 배포하기 위한 전에 미리 만든 설치 프로젝트로 빌드한 설치 파일을 구글 드라이브 링크를 통해 배포하겠습니다. 감사합니다.
+
 https://drive.google.com/file/d/1YB1Zrgsr-xMLektZ6WD2g42aPPxoYhBV/view?usp=sharing
+
+-게임을 제거하고 싶으시면 프로그램 추가/제거에서 MMMGame을 찾으시고 제거하시면 됩니다.
